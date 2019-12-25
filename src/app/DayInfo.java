@@ -62,5 +62,9 @@ public class DayInfo {
         return isWorkDay;
     }
 
+    public void setWorkDay(boolean isWorkDay) {
+        this.isWorkDay = isWorkDay;
+    }
+
 
 }
