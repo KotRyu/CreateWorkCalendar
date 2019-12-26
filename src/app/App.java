@@ -42,5 +42,9 @@ public class App {
         toubanCalendar.addSeihyokiTouban(24, maeda);
 
         toubanCalendar.createToubanCalendar(personList);
+
+        toubanCalendar.toCSV("");
+
+
     }
 }

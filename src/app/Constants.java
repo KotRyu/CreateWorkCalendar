@@ -24,5 +24,18 @@ public class Constants {
         }
 
     }
+
+    /**
+     * 重複の種類
+     */
+    public static enum DuplicationType{
+        NOT_DUPLICATE,
+        TEL1_AND_TEL2,
+        TEL1_AND_COFFEE,
+        TEL2_AND_COFFEE,
+        TEL1_AND_ICE,
+        TEL2_AND_ICE,
+        COFFEE_AND_ICE
+    }
 }
 

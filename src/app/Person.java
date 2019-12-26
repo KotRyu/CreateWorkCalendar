@@ -8,7 +8,7 @@ import static app.Constants.WorkDayOfWeek;
 /**
  * Person
  */
-public class Person {
+public class Person  implements Cloneable{
 
     // 人数
     private static int numberOfPerson = 0;
